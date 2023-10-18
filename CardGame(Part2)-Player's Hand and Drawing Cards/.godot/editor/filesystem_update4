@@ -1,0 +1,4 @@
+res://default_env.tres
+res://Playspace.tscn
+res://Playspace.gd
+res://Cards/CardBase.tscn
