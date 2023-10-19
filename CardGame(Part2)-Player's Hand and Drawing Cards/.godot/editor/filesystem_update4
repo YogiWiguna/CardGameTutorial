@@ -1,0 +1,6 @@
+res://default_env.tres
+res://Playspace.tscn
+res://Cards/CardBase.tscn
+res://Cards/Player_Hand.gd
+res://Cards/CardBase.gd
+res://Playspace.gd
