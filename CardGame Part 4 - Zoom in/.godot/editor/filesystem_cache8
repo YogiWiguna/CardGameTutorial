@@ -1,0 +1,43 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1699437274
+DeckDraw.gd::GDScript::-1::1699426675::0::1::::<>TextureButton<>::
+default_env.tres::Environment::3109112745918577151::1699432445::0::1::::<><>::
+icon.png::CompressedTexture2D::5912325968042248904::1589599804::1699426696::1::::<><>::
+Playspace.gd::GDScript::-1::1699432092::0::1::::<>Node2D<>::
+Playspace.tscn::PackedScene::2690882541839412324::1699432445::0::1::::<><>::uid://cmjrn8ic765gn::::res://Assets/Background/Background.jpg<>uid://bx21xml7u3m2b::::res://Assets/Cards/Card Borders etc/Back_Texture.png<>uid://nji8drvlbn26::::res://Assets/Cards/Card Borders etc/Gold_Border.png<>res://Playspace.gd<>res://DeckDraw.gd
+TextureButton.gd::GDScript::-1::1699426675::0::1::::<>TextureButton<>::
+::res://Assets/::1699427697
+::res://Assets/Background/::1699427697
+Background.jpg::CompressedTexture2D::5634744040790799241::1589599804::1699426697::1::::<><>::
+::res://Assets/Cards/::1699427697
+CardsDatabase.gd::GDScript::-1::1699426675::0::1::::<>RefCounted<>::
+::res://Assets/Cards/Card Borders etc/::1699427697
+background shade.png::CompressedTexture2D::4339516664367730330::1589599804::1699426696::1::::<><>::
+BackgroundImage.png::CompressedTexture2D::5334107408325167870::1589599804::1699426696::1::::<><>::
+Back_Texture.png::CompressedTexture2D::4058122650554026407::1589599804::1699426696::1::::<><>::
+cardborder.png::CompressedTexture2D::4331446277856370146::1589599804::1699426696::1::::<><>::
+Gold_Border.png::CompressedTexture2D::931579219022576641::1589599806::1699426696::1::::<><>::
+::res://Assets/Cards/Events/::1699427697
+Army Camp.png::CompressedTexture2D::4936921192797169447::1589599806::1699426696::1::::<><>::
+Smith.png::CompressedTexture2D::3305527007383148547::1589599806::1699426696::1::::<><>::
+Trebuchet.png::CompressedTexture2D::6218982462868949350::1589599806::1699426696::1::::<><>::
+::res://Assets/Cards/Units/::1699427697
+Archer.png::CompressedTexture2D::3255985562955116099::1589599806::1699426696::1::::<><>::
+Footman.png::CompressedTexture2D::492627064566073637::1589599806::1699426696::1::::<><>::
+Guardian.png::CompressedTexture2D::8590263259588022158::1589599806::1699426696::1::::<><>::
+Knight.png::CompressedTexture2D::6122110720084330040::1589599806::1699426696::1::::<><>::
+Mentor.png::CompressedTexture2D::2815310973737274543::1589599806::1699426696::1::::<><>::
+Mercenary.png::CompressedTexture2D::1539829809297678699::1589599806::1699426696::1::::<><>::
+Spearman.png::CompressedTexture2D::5438048776480229604::1589599806::1699426696::1::::<><>::
+SquadLeader.png::CompressedTexture2D::1883864150036844182::1589599806::1699426696::1::::<><>::
+Warrior.png::CompressedTexture2D::8282851440087094024::1589599806::1699426696::1::::<><>::
+::res://Assets/font/::1699427697
+Comfortaa-Bold.ttf::FontFile::5268631137670743802::1589599806::1699426696::1::::<><>::
+::res://Assets/GUI/::1699427697
+background shade.png::CompressedTexture2D::1349401223777332758::1589599806::1699426696::1::::<><>::
+CardBase1.png::CompressedTexture2D::4514128814359127418::1589599806::1699426696::1::::<><>::
+CardBase2.png::CompressedTexture2D::5832965463560334819::1589599806::1699426696::1::::<><>::
+::res://Cards/::1699432092
+CardBase.gd::GDScript::-1::1699432038::0::1::::<>MarginContainer<>::
+CardBase.tscn::PackedScene::3043823927144838068::1699432092::0::1::::<><>::res://Cards/CardBase.gd<>uid://b2ygj1gs7rp75::::res://Assets/Cards/Card Borders etc/cardborder.png<>uid://chcft5mar77kw::::res://Assets/font/Comfortaa-Bold.ttf<>uid://b23dg8rbk8xfm::::res://Assets/Cards/Card Borders etc/background shade.png<>uid://bx21xml7u3m2b::::res://Assets/Cards/Card Borders etc/Back_Texture.png<>uid://nji8drvlbn26::::res://Assets/Cards/Card Borders etc/Gold_Border.png
+Player_Hand.gd::GDScript::-1::1699426675::0::1::::<>RefCounted<>::

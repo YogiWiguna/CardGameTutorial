@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://c0rbuj48n825y"]
-
-[ext_resource type="Script" path="res://Cards/CardBase.gd" id="1_cmb06"]
-
-[node name="CardBase" type="MarginContainer"]
-offset_right = 250.0
-offset_bottom = 350.0
-pivot_offset = Vector2(125, 175)
-script = ExtResource("1_cmb06")

@@ -1,6 +1,0 @@
-res://default_env.tres
-res://Playspace.tscn
-res://Cards/CardBase.tscn
-res://Playspace.gd
-res://DeckDraw.gd
-res://Cards/Player_Hand.gd

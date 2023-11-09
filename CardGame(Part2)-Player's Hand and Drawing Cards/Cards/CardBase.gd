@@ -20,7 +20,7 @@ enum{InHand,InPlay,InMouse,FocusInHand,MoveDrawnCardToHand,ReOrganiseHand}
 var state = InHand
 # Called when the node enters the scene tree for the first time.
 func _ready():
-#	print(CardInfo)
+	print(CardImg)
 	# Replace with function body.
 	
 	#To make base of Card Size the process is :

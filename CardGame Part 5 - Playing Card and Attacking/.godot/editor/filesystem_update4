@@ -1,0 +1,12 @@
+res://default_env.tres
+res://Cards/card_slot.tscn
+res://Playspace.gd
+res://Playspace.tscn
+res://Cards/CardBase.tscn
+res://enemy.tscn
+res://Bar.tscn
+res://Enemy.gd
+res://Cards/CardSlot.gd
+res://Cards/CardSlot.tscn
+res://Cards/CardBase.gd
+res://DiscardPile.gd
