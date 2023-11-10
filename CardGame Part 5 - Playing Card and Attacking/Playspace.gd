@@ -63,6 +63,14 @@ func drawcard():
 	OrganiseHand()
 	return DeckSize
 
+func ReParentCard(CardNo):
+	NumberCardsHand -= 1
+	Card_Numb = 0
+	var Card = $Cards.get_child(CardNo)
+	$Cards.remove_child(Card)
+	$CardsInPlay.add_child(Card)
+	OrganiseHand()
+
 func OrganiseHand():
 	for Card in $Cards.get_children(): # reorganise hand
 		angle = PI/2 + CardSpread*(float(NumberCardsHand)/2 - Card_Numb)

@@ -1,0 +1,55 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1699599394
+Bar.tscn::PackedScene::-1::1699599380::0::1::::<><>::res://assets/GUI/label_HP_bg.png<>res://assets/GUI/label_HP.png<>res://assets/font/Comfortaa-Bold.ttf<>res://assets/GUI/lifebar_bg.png<>res://assets/GUI/lifebar_fill.png
+DeckDraw.gd::GDScript::-1::1699599380::0::1::::<>TextureButton<>::
+default_env.tres::Environment::-1::1699599380::0::1::::<><>::
+DiscardPile.gd::GDScript::-1::1699599380::0::1::::<>TextureButton<>::
+Enemy.gd::GDScript::-1::1699599380::0::1::::<>MarginContainer<>::
+Enemy.tscn::PackedScene::-1::1699599380::0::1::::<><>::res://Enemy.gd<>res://Bar.tscn<>res://Assets/Cards/Enemies/Enemy1.png
+icon.png::CompressedTexture2D::1444751743293464792::1608712902::1699599396::1::::<><>::
+Playspace.gd::GDScript::-1::1699599380::0::1::::<>Node2D<>::
+Playspace.tscn::PackedScene::-1::1699599380::0::1::::<><>::res://Assets/Background/Background.jpg<>res://Assets/Cards/Card Borders etc/Back_Texture.png<>res://Assets/Cards/Card Borders etc/Gold_Border.png<>res://Playspace.gd<>res://DeckDraw.gd<>res://Enemy.tscn<>res://DiscardPile.gd
+TextureButton.gd::GDScript::-1::1699599380::0::1::::<>TextureButton<>::
+::res://Assets/::1699599350
+::res://Assets/Background/::1699599350
+Background.jpg::CompressedTexture2D::413046439037088024::1608712904::1699599398::1::::<><>::
+::res://Assets/Cards/::1699599350
+CardsDatabase.gd::GDScript::-1::1699599380::0::1::::<>RefCounted<>::
+::res://Assets/Cards/Card Borders etc/::1699599350
+background shade.png::CompressedTexture2D::3596626367215300250::1608712904::1699599396::1::::<><>::
+BackgroundImage.png::CompressedTexture2D::4857377205815732594::1608712904::1699599396::1::::<><>::
+Back_Texture.png::CompressedTexture2D::9123527853907622812::1608712904::1699599396::1::::<><>::
+cardborder.png::CompressedTexture2D::6401998593062191300::1608712904::1699599396::1::::<><>::
+Gold_Border.png::CompressedTexture2D::702869570496910609::1608712904::1699599396::1::::<><>::
+::res://Assets/Cards/Enemies/::1699599350
+Enemy1.png::CompressedTexture2D::2667008081618138335::1608712904::1699599397::1::::<><>::
+::res://Assets/Cards/Events/::1699599350
+Army Camp.png::CompressedTexture2D::6328780949419884720::1608712904::1699599396::1::::<><>::
+Smith.png::CompressedTexture2D::7381851601388529808::1608712904::1699599396::1::::<><>::
+Trebuchet.png::CompressedTexture2D::3711932159254352521::1608712904::1699599396::1::::<><>::
+::res://Assets/Cards/Units/::1699599350
+Archer.png::CompressedTexture2D::2775133870236134088::1608712904::1699599396::1::::<><>::
+Footman.png::CompressedTexture2D::2434588702353740298::1608712904::1699599396::1::::<><>::
+Guardian.png::CompressedTexture2D::1820001444142744273::1608712904::1699599396::1::::<><>::
+Knight.png::CompressedTexture2D::1274651968180664966::1608712904::1699599396::1::::<><>::
+Mentor.png::CompressedTexture2D::5936309291647913684::1608712904::1699599396::1::::<><>::
+Mercenary.png::CompressedTexture2D::3513510180688126734::1608712904::1699599396::1::::<><>::
+Spearman.png::CompressedTexture2D::3843680008846845700::1608712904::1699599396::1::::<><>::
+SquadLeader.png::CompressedTexture2D::3567241892242089158::1608712904::1699599396::1::::<><>::
+Warrior.png::CompressedTexture2D::8289004179264021880::1608712904::1699599396::1::::<><>::
+::res://Assets/font/::1699599350
+Comfortaa-Bold.ttf::FontFile::8801363103568875312::1608712904::1699599396::1::::<><>::
+::res://Assets/GUI/::1699599350
+background shade.png::CompressedTexture2D::4344854829007699230::1608712904::1699599396::1::::<><>::
+CardBase1.png::CompressedTexture2D::4624822097256474666::1608712904::1699599396::1::::<><>::
+CardBase2.png::CompressedTexture2D::4525370653532832522::1608712904::1699599396::1::::<><>::
+label_HP.png::CompressedTexture2D::8664751632624977632::1608712904::1699599396::1::::<><>::
+label_HP_bg.png::CompressedTexture2D::7361774299330755175::1608712904::1699599396::1::::<><>::
+lifebar_bg.png::CompressedTexture2D::2226655620315634552::1608712904::1699599396::1::::<><>::
+lifebar_fill.png::CompressedTexture2D::592519686833647279::1608712904::1699599396::1::::<><>::
+::res://Cards/::1699599350
+CardBase.gd::GDScript::-1::1699599380::0::1::::<>MarginContainer<>::
+CardBase.tscn::PackedScene::-1::1699599380::0::1::::<><>::res://Cards/CardBase.gd<>res://Assets/Cards/Card Borders etc/cardborder.png<>res://Assets/font/Comfortaa-Bold.ttf<>res://Assets/Cards/Card Borders etc/background shade.png<>res://Assets/Cards/Card Borders etc/Back_Texture.png<>res://Assets/Cards/Card Borders etc/Gold_Border.png
+CardSlot.gd::GDScript::-1::1699599380::0::1::::<>MarginContainer<>::
+CardSlot.tscn::PackedScene::-1::1699599380::0::1::::<><>::res://Cards/CardSlot.gd<>res://Assets/GUI/CardBase1.png
+Player_Hand.gd::GDScript::-1::1699599380::0::1::::<>RefCounted<>::

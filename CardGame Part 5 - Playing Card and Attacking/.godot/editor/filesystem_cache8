@@ -1,13 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699516316
-Bar.tscn::PackedScene::4215151657797296071::1699515565::0::1::::<><>::uid://ei3ew0nf10xs::::res://Assets/GUI/label_HP_bg.png<>uid://ohk3kg2ot37p::::res://Assets/GUI/label_HP.png<>uid://3x8bggueulrp::::res://Assets/GUI/lifebar_bg.png<>uid://b62fsarlol2ol::::res://Assets/GUI/lifebar_fill.png
+::res://::1699598033
+Bar.tscn::PackedScene::4215151657797296071::1699523714::0::1::::<><>::uid://ei3ew0nf10xs::::res://Assets/GUI/label_HP_bg.png<>uid://ohk3kg2ot37p::::res://Assets/GUI/label_HP.png<>uid://3x8bggueulrp::::res://Assets/GUI/lifebar_bg.png<>uid://b62fsarlol2ol::::res://Assets/GUI/lifebar_fill.png
 DeckDraw.gd::GDScript::-1::1699426675::0::1::::<>TextureButton<>::
-default_env.tres::Environment::3109112745918577151::1699515565::0::1::::<><>::
-Enemy.gd::GDScript::-1::1699511812::0::1::::<>MarginContainer<>::
-enemy.tscn::PackedScene::3644345780615619432::1699515565::0::1::::<><>::res://Enemy.gd<>uid://bkk65pi6impsg::::res://Assets/Cards/Enemies/Enemy1.png<>uid://b1b36xl4d6uwd::::res://Bar.tscn
+default_env.tres::Environment::3109112745918577151::1699523714::0::1::::<><>::
+DiscardPile.gd::GDScript::-1::1699520963::0::1::::<>TextureButton<>::
+Enemy.gd::GDScript::-1::1699517462::0::1::::<>MarginContainer<>::
+enemy.tscn::PackedScene::3644345780615619432::1699523714::0::1::::<><>::res://Enemy.gd<>uid://bkk65pi6impsg::::res://Assets/Cards/Enemies/Enemy1.png<>uid://b1b36xl4d6uwd::::res://Bar.tscn
 icon.png::CompressedTexture2D::5912325968042248904::1589599804::1699426696::1::::<><>::
-Playspace.gd::GDScript::-1::1699513531::0::1::::<>Node2D<>::
-Playspace.tscn::PackedScene::2690882541839412324::1699515565::0::1::::<><>::uid://cmjrn8ic765gn::::res://Assets/Background/Background.jpg<>uid://bx21xml7u3m2b::::res://Assets/Cards/Card Borders etc/Back_Texture.png<>uid://br6l3waa2okqa::::res://enemy.tscn<>uid://nji8drvlbn26::::res://Assets/Cards/Card Borders etc/Gold_Border.png<>res://Playspace.gd<>res://DeckDraw.gd
+Playspace.gd::GDScript::-1::1699522548::0::1::::<>Node2D<>::
+Playspace.tscn::PackedScene::2690882541839412324::1699523713::0::1::::<><>::uid://cmjrn8ic765gn::::res://Assets/Background/Background.jpg<>uid://bx21xml7u3m2b::::res://Assets/Cards/Card Borders etc/Back_Texture.png<>uid://br6l3waa2okqa::::res://enemy.tscn<>uid://nji8drvlbn26::::res://Assets/Cards/Card Borders etc/Gold_Border.png<>res://Playspace.gd<>res://DeckDraw.gd<>res://DiscardPile.gd
 TextureButton.gd::GDScript::-1::1699426675::0::1::::<>TextureButton<>::
 ::res://Assets/::1699432456
 ::res://Assets/Background/::1699432455
@@ -46,9 +47,9 @@ label_HP.png::CompressedTexture2D::997752163116446871::1554333680::1699432668::1
 label_HP_bg.png::CompressedTexture2D::298978810289895684::1554333680::1699432668::1::::<><>::
 lifebar_bg.png::CompressedTexture2D::2014774082087260381::1554333680::1699432668::1::::<><>::
 lifebar_fill.png::CompressedTexture2D::4618348791866476843::1554333680::1699432668::1::::<><>::
-::res://Cards/::1699515565
-CardBase.gd::GDScript::-1::1699515565::0::1::::<>MarginContainer<>::
-CardBase.tscn::PackedScene::3043823927144838068::1699515565::0::1::::<><>::res://Cards/CardBase.gd<>uid://b2ygj1gs7rp75::::res://Assets/Cards/Card Borders etc/cardborder.png<>uid://chcft5mar77kw::::res://Assets/font/Comfortaa-Bold.ttf<>uid://b23dg8rbk8xfm::::res://Assets/Cards/Card Borders etc/background shade.png<>uid://bx21xml7u3m2b::::res://Assets/Cards/Card Borders etc/Back_Texture.png<>uid://nji8drvlbn26::::res://Assets/Cards/Card Borders etc/Gold_Border.png
+::res://Cards/::1699523714
+CardBase.gd::GDScript::-1::1699523713::0::1::::<>MarginContainer<>::
+CardBase.tscn::PackedScene::3043823927144838068::1699523714::0::1::::<><>::res://Cards/CardBase.gd<>uid://b2ygj1gs7rp75::::res://Assets/Cards/Card Borders etc/cardborder.png<>uid://chcft5mar77kw::::res://Assets/font/Comfortaa-Bold.ttf<>uid://b23dg8rbk8xfm::::res://Assets/Cards/Card Borders etc/background shade.png<>uid://bx21xml7u3m2b::::res://Assets/Cards/Card Borders etc/Back_Texture.png<>uid://nji8drvlbn26::::res://Assets/Cards/Card Borders etc/Gold_Border.png
 CardSlot.gd::GDScript::-1::1699512895::0::1::::<>MarginContainer<>::
-CardSlot.tscn::PackedScene::8010009102600210059::1699515565::0::1::::<><>::res://Cards/CardSlot.gd<>uid://b5kxbouy7slb3::::res://Assets/GUI/CardBase1.png
+CardSlot.tscn::PackedScene::8010009102600210059::1699523714::0::1::::<><>::res://Cards/CardSlot.gd<>uid://b5kxbouy7slb3::::res://Assets/GUI/CardBase1.png
 Player_Hand.gd::GDScript::-1::1699426675::0::1::::<>RefCounted<>::

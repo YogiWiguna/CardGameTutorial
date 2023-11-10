@@ -134,7 +134,7 @@ func _physics_process(delta):
 					rotation = 0
 					scale = targetscale
 					MovingtoInPlay = false
-#					$'../../'.ReParentCard(Card_Numb)
+					$'../../'.ReParentCard(Card_Numb)
 		InMouse:
 			if setup: 
 				Setup()
